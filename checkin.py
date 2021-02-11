@@ -81,7 +81,7 @@ def main():
     {cjStr2}
     ```
     """
-    requests.post('https://sc.ftqq.com/'+key+'.send', data={
+    requests.post('https://sctapi.ftqq.com/SCT6126T0qnMWwQe2uXlHTjbp5rkOaDT.send', data={
     'text':bj_time.strftime("%Y-%m-%d %H:%M:%S %p")+'天翼云盘打卡',
     'desp':desp
 })
